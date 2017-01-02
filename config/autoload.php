@@ -16,5 +16,5 @@
 */
 
 ClassLoader::addClasses(array(
-    'Konzerteostschweiz\Concert' => 'system/modules/ko_concertapi/classes/Concert.php'
+    'Konzerteostschweiz\Concert' => 'system/modules/konzerte-ostschweiz-api/classes/Concert.php'
 ));
