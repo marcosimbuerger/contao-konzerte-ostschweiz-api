@@ -222,6 +222,7 @@ class Concert {
         'published' => 1,
         'koid' => $data->concert->id,
         'ko_tstamp' => $data->concert->last_updated,
+        'association_name' => $data->association->association_name,
       );
 
       return $concertDataArray;
